@@ -1,1 +1,60 @@
 
+package cdio2;
+
+public class feltliste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		switch (getFaceValue) { // x= henter terningens værdi
+			case 2:
+				//add(250)
+				System.out.println("Du har overtaget tårnet og får derved 250 point!");
+				break;
+			case 3:
+				//add(-100)
+				System.out.println("Øv, du landede lige midt i et krater og mister 100 point.");
+				break;
+			case 4:
+				//add(100)
+				System.out.println("Du er endelig nået frem til paladets porte, du bliver tildelt 100 point");
+				break;
+			case 5:
+				//add(-20)
+				System.out.println("Du er strandet midt i den kolde ørken. Du mister 20 point");
+				break;
+			case 6:
+				//add(180)
+				System.out.println("Et forunderligt syn møder dig på din vej. Midt i mellem bjerne finder du en smuk by. Du bliver tildelt 180 point");
+				break;
+			case 7:
+				//add(0)
+				System.out.println("Du ankommer til et kloster. Det ser ikke ud som om der har været nogle her i mange år? Du får 0 point");
+				break;
+			case 8:
+				//add(-70)
+				System.out.println("Din fakkel er gået ud og du står nu i komplet mørke. Noget rører ved dit ben. Du kan høre en hvislelys i det fjerne. Du mister 70 point");
+				break;
+			case 9:
+				// add(60)
+				System.out.println("Oppe i bjerne støder du på et par træhytter. Du går ind og får varmen og 60 point");
+				break;
+			case 10:
+				//add(-80) men får en ekstra tur
+				System.out.println("The Werewall, du mister 80 point, men du får en ekstra tur");
+				break;
+			case 11:
+				//add(-50)
+				System.out.println("The pit");
+				break;
+			case 12:
+				//add(650)
+				System.out.println("Du tror ikke dine ejne øjne! Du er har fundet en guldmine og modtager 650 point. Du er rig!");
+			default:
+				System.out.println("Der er sket en fejl");
+
+		}
+		}
+	}
+
+}
